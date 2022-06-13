@@ -1,7 +1,14 @@
+import netrc
+from numbers import Rational
+import numbers
+from this import d
+from tkinter import N
 import numpy as np
 import math
 import matplotlib.pyplot as plt
 import os
+from fractions import Fraction
+from sympy import *
 
 def menu():
     os.system("clear")
@@ -19,66 +26,14 @@ def Funcion_Racional():
     os.system("clear")
     print("Funcion Racional")
     print("=============================")
-    
-    {"cantidad_opciones":1, "cantidad_disponible":50}
+    math.gcd()
+    class fractions.Fraction(float)
+        Rational(int n,int d)
+        num == n
+        den == d
+        float("Introduzca el numerador",n)
+        float("Introduzca el denominador",d)
 
-    a = elegir(-5,6,0,1)
-    n = elegir(-10,10,0)
-    letra_de_funcion = choice(["f", "g", "h"])
-    recorridos = [Matematica(letra_conjunto("R")),
-        Matematica(letra_conjunto("R")+r"-\{0\}"),
-        Matematica(fr"[0, +{INF()}["),
-        Matematica(fr"]0, +{INF()}["),
-        Matematica(fr"]-{INF()}, 0]"),
-        Matematica(fr"]-{INF()}, 0[")
-    ]
-
-if 0<a and n<0 and n%2==0:
-    enunciado = "Sea la función "+Matematica(f"{letra_de_funcion}(x)="+Racional(a)*potencia("x",n)) +f". Si el dominio de {letra_de_funcion} es "+Matematica(letra_conjunto('R')+r'-\{0\}')+", su recorrido es"
-elif 0<a and n<0 and n%2==1 and n!=1:
-    enunciado = "Sea la función "+Matematica(f"{letra_de_funcion}(x)="+Racional(a)*potencia("x",n)) +f". Si el dominio de {letra_de_funcion} es "+Matematica(letra_conjunto('R')+r'-\{0\}')+", su recorrido es"
-elif 0<a and 0<n and n%2==0:
-    enunciado = "Sea la función "+Matematica(f"{letra_de_funcion}(x)="+Racional(a)*potencia("x",n)) +f". Si el dominio de {letra_de_funcion} es "+Matematica(letra_conjunto('R'))+", su recorrido es"
-elif 0<a and 0<n and n%2==1:
-    enunciado = "Sea la función "+Matematica(f"{letra_de_funcion}(x)="+Racional(a)*potencia("x",n)) +f". Si el dominio de {letra_de_funcion} es "+Matematica(letra_conjunto('R'))+", su recorrido es"
-
-elif a<0 and n<0 and n%2==0:
-    enunciado = "Sea la función "+Matematica(f"{letra_de_funcion}(x)="+Racional(a)*potencia("x",n)) +f". Si el dominio de {letra_de_funcion} es "+Matematica(letra_conjunto('R')+r'-\{0\}')+", su recorrido es"
-elif a<0 and n<0 and n%2==1 and n!=1:
-    enunciado = "Sea la función "+Matematica(f"{letra_de_funcion}(x)="+Racional(a)*potencia("x",n)) +f". Si el dominio de {letra_de_funcion} es "+Matematica(letra_conjunto('R')+r'-\{0\}')+", su recorrido es"
-elif a<0 and 0<n and n%2==0:
-    enunciado = "Sea la función "+Matematica(f"{letra_de_funcion}(x)="+Racional(a)*potencia("x",n)) +f". Si el dominio de {letra_de_funcion} es "+Matematica(letra_conjunto('R'))+", su recorrido es"
-elif a<0 and 0<n and n%2==1:
-    enunciado = "Sea la función "+Matematica(f"{letra_de_funcion}(x)="+Racional(a)*potencia("x",n)) +f". Si el dominio de {letra_de_funcion} es "+Matematica(letra_conjunto('R'))+", su recorrido es"
-
-if 0<a and n<0 and n%2==0:
-    contenido_correcto = Matematica(fr"]0, +{INF()}[")
-elif 0<a and n<0 and n%2==1 and n!=1:
-    contenido_correcto = Matematica(letra_conjunto("R")+r"-\{0\}")
-elif 0<a and 0<n and n%2==0:
-    contenido_correcto = Matematica(fr"[0, +{INF()}[")
-elif 0<a and 0<n and n%2==1:
-    contenido_correcto = Matematica(letra_conjunto("R"))
-
-elif a<0 and n<0 and n%2==0:
-    contenido_correcto = Matematica(fr"]-{INF()}, 0[")
-elif a<0 and n<0 and n%2==1 and n!=1:
-    contenido_correcto = Matematica(letra_conjunto("R")+r"-\{0\}")
-elif a<0 and 0<n and n%2==0:
-    contenido_correcto = Matematica(fr"]-{INF()}, 0]")
-elif a<0 and 0<n and n%2==1:
-    contenido_correcto = Matematica(letra_conjunto("R"))
-
-recorridos.remove(contenido_correcto)
-contenido_2 = choice(recorridos)
-recorridos.remove(contenido_2)
-contenido_3 = choice(recorridos)
-recorridos.remove(contenido_3)
-contenido_4 = choice(recorridos)
-recorridos.remove(contenido_4)
-contenido_5 = choice(recorridos)
-recorridos.remove(contenido_5)
-    
     pausa()
 
 def Funcion_Irracional():
